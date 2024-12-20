@@ -9,23 +9,49 @@ This project focuses on approximating principal curvatures of 3D objects using V
 - Started implementing GUI with ImGui for visualizing curvature approximation.
 - Resolved initial runtime errors (e.g., invalid `DisplaySize` in ImGui).
 
+
+### Prerequisites
+- CMake 3.18 or higher
+- A C++ compiler (Visual Studio, GCC, etc.)
+- VTK (9.4 or compatible version)
+- OpenGL (installed with most graphics drivers)
+
+## Setup and Run
+To run the project in its current state, follow these steps:
+
+1. **Install Required Software:**
+   - Install [CMake](https://cmake.org/download/).
+   - Install [Visual Studio](https://visualstudio.microsoft.com/) (ensure the C++ development tools are selected during installation).
+   - Install [VTK 9.4.0](https://vtk.org/download/).
+   - Install [ImGui](https://github.com/ocornut/imgui).
+
+2. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/yourusername/ApproximationCourbures3D.git
+   cd ApproximationCourbures3D
+   ```
+
+3. **Build the Project:**
+   ```bash
+   mkdir build
+   cd build
+   cmake ..
+   cmake --build .
+   ```
+
+4. **Run the Application:**
+   ```bash
+   ./ApproximationCourbures3D
+   ```
+
+---
+
 ## Future Goals
 1. Dockerize the project to improve portability and shareability.
 2. Optimize curvature estimation algorithms.
 3. Implement additional visualization techniques for curvature mapping.
 
-## Usage
-To run the project locally:
-```bash
-# Compile and run the application
-cmake .
-make
-./ApproximationCourbures3D
-```
-
----
-
-### **5. Dockerization Plan**
+### **6. Dockerization Plan**
 Add this section to the `README.md` to outline your Dockerization plan:
 
 ```markdown
