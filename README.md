@@ -1,7 +1,7 @@
 # ApproximationCourbures3D
 
 ## Project Description
-This project focuses on approximating principal curvatures of 3D objects using VTK and C++ techniques. It is part of a workshop and aims to provide a visual understanding of curvature estimation.
+This project focuses on approximating principal curvatures of 3D objects using VTK and C++ techniques. It is me trying to expand based on a workshop at my uni ENSI (Tunisia) and aims to provide a visual understanding of curvature estimation.
 
 ## Current Progress
 - Successfully set up a build system using CMake and Visual Studio.
