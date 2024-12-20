@@ -43,6 +43,24 @@ To run the project in its current state, follow these steps:
    ```bash
    ./ApproximationCourbures3D
    ```
+# Additional necessary steps!
+
+## Generate and Add glad
+1. Visit the [glad generator](https://gen.glad.sh/), configure the desired OpenGL version (e.g., OpenGL 3.3), and download the files.
+2. Extract and copy the files into the `third_party/glad/` directory:
+   - Place `include/glad/` under `third_party/glad/include/glad/`.
+   - Place `src/glad.c` under `third_party/glad/src/glad.c`.
+
+---
+
+## Download and Build GLFW
+1. Visit [glfw.org](https://www.glfw.org/) and download the source code.
+2. Extract and place the files in `third_party/glfw/`.
+3. Build GLFW:
+   ```bash
+   cd third_party/glfw
+   cmake .
+   make
 
 ---
 
