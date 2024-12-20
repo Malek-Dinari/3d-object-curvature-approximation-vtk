@@ -46,7 +46,7 @@ To run the project in its current state, follow these steps:
 # Additional necessary steps!
 
 ## Generate and Add glad
-1. Visit the [glad generator](https://gen.glad.sh/), configure the desired OpenGL version (e.g., OpenGL 3.3), and download the files.
+1. Visit the [glad generator](https://gen.glad.sh/), configure the desired OpenGL version (e.g., OpenGL 3.2 or more if you plan to upgrade and modify the project), and download the files.
 2. Extract and copy the files into the `third_party/glad/` directory:
    - Place `include/glad/` under `third_party/glad/include/glad/`.
    - Place `src/glad.c` under `third_party/glad/src/glad.c`.
